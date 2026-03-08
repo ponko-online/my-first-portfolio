@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>初めてのWebページ</title>
+  <style>
+    body {
+      background-color: #f0f8ff; /* 背景色 */
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #ff6347; /* 見出しの色 */
+    }
+    p {
+      color: #f0f8ff; /* 段落の文字色 */
+      font-size: 18px;
+    }
+    .button {
+      background-color: #00cc33;
+      color: #ffffff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    
+    
+  </style>
+</head>
+<body>
+  <h1>ぽんこがはじめて作ったHTML/CSSページ</h1>
+  <p>これはChatGTPに教えてもらいながら、ぽんこが作ったサイトです</p>
+  <p>HTMLとCSSを触って、自分のWebページを作ってみました！</p>
+  <a href="https://www.google.com"  target="_blank" class="button">ここをクリック（Googleに飛びます）</a>
+  <!-- ページ1 -->
+<div id="page1">
+  <p>これはページ1です！</p>
+  <p>🐣</p>
+  <a href="#" class="button" onclick="showPage2()">ページ2に行く</a>
+</div>
+  
+  <!-- ページ2 -->
+<div id="page2" style="display: none;">
+  <p>これはページ2です！</p>
+  <p>🐥</p>
+  <a href="#" class="button" onclick="showPage1()">ページ1に戻る</a>
+  <a href="#" class="button" onclick="showPage3()">ページ3に行く</a>
+</div>
+  
+    <!-- ページ3 -->
+<div id="page3" style="display: none;">
+  <p>これはページ3です！</p>
+  <p>🐤</p>
+  
+  <a href="#" class="button" onclick="showPage1()">ページ1に戻る</a>
+  
+  <a href="#" class="button" onclick="showPage2()">ページ2に戻る</a>
+</div>
+  
+</body>
+</html>

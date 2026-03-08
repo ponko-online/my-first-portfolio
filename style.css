@@ -1,0 +1,33 @@
+body {
+  background-color: #000000 !important; /* ブラック */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.button {
+  font-weight: bold;
+}
+
+p:first-of-type {
+  font-size: 20px; /* 1つ目の段落 */
+}
+
+p:last-of-type {
+  font-size: 28px; /* 2つ目の段落 */
+}
+
+/* ページ1のボタン */
+#page1 .button {
+  background-color: #ff6347; /* 赤っぽい色 */
+}
+
+/* ページ2のボタン */
+#page2 .button {
+  background-color: #1e90ff; /* 青っぽい色 */
+}
+
+/* ページ3のボタン */
+#page3 .button {
+  background-color: #32cd32; /* 緑っぽい色 */
+}
