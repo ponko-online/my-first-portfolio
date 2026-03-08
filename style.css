@@ -1,33 +1,31 @@
 body {
-  background-color: #000000 !important; /* ブラック */
+  background-color: #ffe4e1;
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 50px;
 }
 
+h1 {
+  color: #ff6347;
+}
+
+p {
+  color: #333333;
+  font-size: 24px;
+}
+
 .button {
+  background-color: #ff69b4;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
   font-weight: bold;
 }
 
-p:first-of-type {
-  font-size: 20px; /* 1つ目の段落 */
-}
-
-p:last-of-type {
-  font-size: 28px; /* 2つ目の段落 */
-}
-
-/* ページ1のボタン */
-#page1 .button {
-  background-color: #ff6347; /* 赤っぽい色 */
-}
-
-/* ページ2のボタン */
-#page2 .button {
-  background-color: #1e90ff; /* 青っぽい色 */
-}
-
-/* ページ3のボタン */
-#page3 .button {
-  background-color: #32cd32; /* 緑っぽい色 */
-}
+/* ページごとの文字色 */
+#page1 p { color: #ff4500; }
+#page2 p { color: #4b0082; }
+#page3 p { color: #008080; }
