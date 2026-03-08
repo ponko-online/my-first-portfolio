@@ -1,9 +1,10 @@
 body {
-  background-color: #000000;
+  background-color: #000000 !important; /* ブラック */
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 50px;
 }
+
 .button {
   font-weight: bold;
 }
